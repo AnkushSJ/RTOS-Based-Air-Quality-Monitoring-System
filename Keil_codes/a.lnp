@@ -1,0 +1,10 @@
+--cpu Cortex-M3
+".\rtx_conf_cm.o"
+".\systeminit.o"
+".\startup_lpc17xx.o"
+".\a1.o"
+C:\Keil\ARM\RV31\LIB\RTX_CM3.LIB
+--library_type=microlib --strict --scatter ".\a.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\a.map" -o .\a.axf

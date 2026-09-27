@@ -1,0 +1,1 @@
+.\systeminit.o: systeminit.c
